@@ -20,15 +20,15 @@ TASK #2: IMPORT LIBRARIES AND DATASETS
 """
 
 #install seaborn library
-!pip install seaborn
+pip install seaborn
 
-!pip install tensorflow
+pip install tensorflow
 
-!pip install pandas
+pip install pandas
 
-!pip install numpy
+pip install numpy
 
-!pip install matplotlib
+pip install matplotlib
 
 import tensorflow as tf
 import pandas as pd
