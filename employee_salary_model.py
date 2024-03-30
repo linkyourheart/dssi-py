@@ -18,14 +18,16 @@ Why linear? when the independent variable increases (or decreases), the dependen
 
 TASK #2: IMPORT LIBRARIES AND DATASETS
 """
+import subprocess
 
+subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
 #install libraries
 #pip install seaborn
 #pip install tensorflow
 #pip install pandas
 #pip install numpy
 #pip install matplotlib
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 import tensorflow as tf
 import pandas as pd
